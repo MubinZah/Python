@@ -1,0 +1,20 @@
+print("Hello world")
+name= "Zahin"
+age="25"
+country1="Spain"
+country2="Japan"
+print("My name is",name)
+print("I am",age, "years old")
+print("I want to go to",country1,"currently I am staying in", country2)
+try:
+    age = int(input("Age: "))
+
+    if age >= 18:
+        print("Adult", age)
+    else:
+        print("Minor", age)
+
+except ValueError:
+    print("Wrong input! Please enter a number")
+    
+
